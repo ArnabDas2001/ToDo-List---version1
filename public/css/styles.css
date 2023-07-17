@@ -1,0 +1,140 @@
+html {
+  background-color: #000000;
+  min-height: 1000px;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+.b1 {
+  display: block;
+	width: 800px;
+	height: 800px;
+	margin:-20%;
+  margin-top: 10%;
+	border-radius: 50%;
+  position: absolute;
+  background: radial-gradient(circle at 65% 15%, rgba(255, 255, 255, 0.904) 1px, rgba(0, 255, 255, 0.87) 3%, darkblue 60%, aqua 100%);  
+}
+.b2 {
+  display: block;
+	width: 800px;
+	height: 800px;
+	margin: 55%;
+  margin-top: -40%;
+	border-radius: 50%;
+  position: absolute;
+  background: radial-gradient(circle at 65% 15%, rgba(255, 255, 255, 0.904) 1px, rgba(0, 255, 255, 0.87) 3%, darkblue 60%, aqua 100%);  
+}
+.b3 {
+  display: block;
+	width: 800px;
+	height: 800px;
+	margin: 55%;
+  margin-top: 35%;
+	border-radius: 50%;
+  position: absolute;
+  background: radial-gradient(circle at 85% 25%, rgba(255, 255, 255, 0.904) 1px, rgba(0, 255, 255, 0.87) 15%, darkblue 60%, aqua 100%);  
+}
+.card{
+   padding: 2% 2%;
+   width: 35%;
+   margin-left: 30%;
+   margin-top: 3%;
+   backdrop-filter: blur(20px);
+   background-color: rgba(49, 49, 49, 0.164);
+   border-radius: 26px;
+   box-shadow: inset -7px -7px 16px 0px rgba(145, 193, 255, 0.253), inset 0px 11px 28px 0px rgba(255, 255, 255, 0.288);
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  backdrop-filter: blur(10px);
+  background-color: rgba(153, 153, 153, 0.116);
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background: linear-gradient(rgba(0, 231, 231, 0.87), rgb(74, 74, 255) 60%);
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: rgb(0, 0, 136);
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #ffffff;
+}
+
+form {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-color: transparent;
+  background: linear-gradient(rgba(0, 231, 231, 0.87), rgb(74, 74, 255) 60%);
+  color: #fff;
+  font-size: 30px;
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  color: #F1F1F1;
+  outline: none;
+  box-shadow: inset 0 -4px 0 0 rgb(148, 148, 255);
+}
+
+::placeholder {
+  color: rgb(119, 119, 119);
+  opacity: 1;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
