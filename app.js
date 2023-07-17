@@ -36,18 +36,18 @@ app.post('/', function(req, res){
    res.redirect('/')
 
    }
-})
+});
 
 app.get('/work', function(req, res){
 res.render('List', {listTitle: 'Work List', newListItems: workItems});
-})
+});
 
 app.post('/work', function(req, res){
    let item = req.body.newItem;
    workItems.push(item);
    res.redirect('/work');
-})
+});
 
 app.listen(3000, function(){
     console.log('Server is running at port 3000');
-})
+});
